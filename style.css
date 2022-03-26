@@ -6,6 +6,7 @@
 	--backgroundcolor: #062F4F;
 	--tabcolor: #B82601;
 	--tabtextcolor: #E7DFDD;
+	--tabhovercolor: #7c1d05;
 }
 .nameheader{
 	width: 90%;
@@ -16,6 +17,7 @@
 	font-family: monospace;
 	font-size: 450%;
 	text-align: center;
+	color: var(--textcolor);
 }
 body{
     background-color: var(--backgroundcolor);
@@ -95,5 +97,5 @@ li a:visited{
     color:var(--tabtextcolor);
 }
 li a:hover {
-    background-color: #c2b3ce;
+    background-color: var(--tabhovercolor);
 }
