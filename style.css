@@ -8,14 +8,52 @@
 	--tabtextcolor: #E7DFDD;
 	--tabhovercolor: #7c1d05;
 }
+@media all and (orientation:portrait) {
+	.mainbody{
+		font-size: 4vw;
+		padding:1.042vw 3.125vw;
+		padding-bottom: 10vw;
+	}
+	li a {
+		font-size: 3vw;
+		height: 83%;
+	}
+	.nameheader{
+		font-size: 6vw;
+	}
+	.halfimage{
+		width: 90%;
+	}
+	iframe{
+		margin: 0.833vw 0px;
+		width: 72vw;
+		height: 40.5vw;
+	}
+}
+@media all and (orientation:landscape){
+	.mainbody{
+		font-size: 1.2vw;
+		padding:1.042vw 3.125vw;
+	}
+	li a {
+		font-size: 1.2vw;
+	}
+	.nameheader{
+		font-size: 3vw;
+	}
+	iframe{
+		margin: 0.833vw 0px;
+		width: 48vw;
+		height: 27vw;
+	}
+}
 .nameheader{
 	width: 90%;
 	margin-left: 5%;
 	margin-top:0px;
-	padding-top: 20px;
-	margin-bottom: 10px;
+	padding-top: 1.042vw;
+	margin-bottom: 0.521vw;
 	font-family: monospace;
-	font-size: 450%;
 	text-align: center;
 	color: var(--textcolor);
 }
@@ -35,16 +73,11 @@ nav{
     margin: 0 5%;
     font-family: 'Raleway', sans-serif;
 }
-iframe{
-    margin: 16px 0px;
-}
 .mainbody{
     background-color: var(--bodycolor);
     color:var(--textcolor);
     margin: 0 5% -15px 5%;
-    padding:20px 60px;
     font-family: 'Slabo 27px', serif;
-    font-size: 20px;
     text-align:center;
 }
 nav ul {
@@ -55,9 +88,10 @@ nav ul {
     font-family: 'Slabo 27px', serif;
     padding-left:0;
     margin-bottom: 0;
+	margin-top: 0.833vw;
 }
 .mainbody p{
-	margin: 0 14%;
+	margin: 0 4.688vw;
 }
 .mainbody ul{
     padding: 0;
@@ -85,10 +119,9 @@ nav li {
 li a {
     display: block;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0.729vw 0.833vw;
     text-decoration: none;
     background-color: var(--tabcolor);
-    font-size: 19px;
 }
 li a:link{
     color:var(--tabtextcolor);
