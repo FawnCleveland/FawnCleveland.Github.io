@@ -59,6 +59,7 @@
 }
 body{
     background-color: var(--backgroundcolor);
+	box-shadow: 0 0 0 100vmax var(--backgroundcolor);
     font-family: 'Raleway', sans-serif;
 }
 h1,h2,h3,h4,h5,h6{
